@@ -1,0 +1,30 @@
+{
+    "Home" : "Ana Sayfa",
+    "Explore" : "Keşfet",
+    "Notifications" : "Bildirimler",
+    "Messages" : "Mesajlar",
+    "Bookmarks" : "Yer İşaretleri",
+    "Lists" : "Listeler",
+    "Profile" : "Profil",
+    "Theme" : "Tema",
+    "Sign Out" : "Çıkış Yap",
+    "textarea" : {
+        "placeholder" : {
+            "What's happening?" : "Neler oluyor?"
+        }
+    },
+    "search-input" : {
+        "placeholder" : {
+            "search.." : "ara.."
+        }
+    },
+    "follow" : "takip et",
+    "unfollow" : "takibi bırak",
+    "Edit Profile" : "Profili Düzenle",
+    "Following" : "Takip Edilen",
+    "Followers" : "Takipçi",
+    "Log In" : "Giriş Yap",
+    "Sign Up" : "Kayıt Ol",
+    "See what's happening in the world right now" : "Şu anda dünyada neler olduğunu görün",
+    "Join twitter today." : "Bugün twitter a katıl."
+}

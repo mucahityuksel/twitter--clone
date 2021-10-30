@@ -1,0 +1,30 @@
+{
+    "Home" : "Home",
+    "Explore" : "Explore",
+    "Notifications" : "Notifications",
+    "Messages" : "Messages",
+    "Bookmarks" : "Bookmarks",
+    "Lists" : "Lists",
+    "Profile" : "Profile",
+    "Theme" : "Theme",
+    "Sign Out" : "Sign Out",
+    "textarea" : {
+        "placeholder" : {
+            "What's happening?" : "What's happening?"
+        }
+    },
+    "search-input" : {
+        "placeholder" : {
+            "search.." : "search.."
+        }
+    },
+    "follow" : "follow",
+    "unfollow": "unfollow",
+    "Edit Profile" : "Edit Profile",
+    "Following" : "Following",
+    "Followers" : "Followers",
+    "login" : "Login",
+    "Sign Up" : "Sign Up",
+    "See what's happening in the world right now" : "See what's happening in the world right now",
+    "Join twitter today." : "Join twitter today."
+}
