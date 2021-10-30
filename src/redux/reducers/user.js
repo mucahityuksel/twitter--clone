@@ -58,7 +58,7 @@ const userState = {
 const userReducer = (state = userState, action) => {
     switch (action.type) {
         case SIGNUP:
-            axios.post("https://twitter-server-mucahit.herokuapp.com/",action.payload).then((data) => console.log(data));
+            axios.post("https://twitter-server-mucahit.herokuapp.com/users",action.payload).then((data) => console.log(data));
             return{
                 ...state,
                 user: action.payload,
