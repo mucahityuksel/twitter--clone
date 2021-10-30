@@ -38,7 +38,7 @@ function FProfile() {
                     {                      
                             <div className="follow-bar">
                                 <label className="following_label">{user.following.length} Following </label>
-                                <label className="followers_label">{user.followers[0].count} Followers </label>                            
+                                {/* <label className="followers_label">{user.followers[0].count} Followers </label>                             */}
                             </div>                       
                     }    
                 </div>

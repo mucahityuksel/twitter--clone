@@ -34,7 +34,7 @@ function Profile() {
                     {                      
                             <div className="follow-bar">
                                 <label>{user.following.length} {t("Following")} </label>
-                                <label>{user.followers[0].count} {t("Followers")} </label>                            
+                                {/* <label>{user.followers[0].count} {t("Followers")} </label>                             */}
                             </div>                       
                     }    
                 </div>
