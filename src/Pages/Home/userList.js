@@ -53,7 +53,7 @@ function UserList() {
     users.map((item,key) => {
       if(item.id === store.getState().user.user.following[a.length - 1]){
         store.getState().user.user.f_tweets.push(item.tweets);
-        item.followers[0].count = item.followers[0].count + 1;
+        //item.followers[0].count = item.followers[0].count + 1;
         item.followers.push(loginUser.id)
         item.tweets.map((data) => {                   
           loginUser.f_tweets.push(data)       
@@ -70,7 +70,7 @@ function UserList() {
   const unfollow = async (user) => {
 
     let a = store.getState().user.user.following
-    user.followers[0].count = user.followers[0].count - 1;
+    //user.followers[0].count = user.followers[0].count - 1;
     loginUser.following.pop(loginUser.following[user.username])
     axios.put(`https://twitter-server-mucahit.herokuapp.com/users/${user.id}`,user)
       .then(res => console.log(res));      
@@ -79,7 +79,7 @@ function UserList() {
       if(item.username === user.username){
         
         store.getState().user.user.f_tweets.pop(item.tweets);
-        item.followers[0].count = item.followers[0].count -1;
+        //item.followers[0].count = item.followers[0].count -1;
         item.followers.pop(loginUser.id)
         item.tweets.map((data) => {                   
           loginUser.f_tweets.pop(data) 
